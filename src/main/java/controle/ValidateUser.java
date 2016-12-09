@@ -53,7 +53,5 @@ public class ValidateUser {
 				ListUser.listUsers.stream().filter(u -> u.getEmail().equals(email)).collect(Collectors.toList())) {
 		}).build();
 	}
-
-
 	
 }
